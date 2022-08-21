@@ -4,7 +4,7 @@ const app = express()
 const port = 3000;
 
 //had to set it to my ip before it'd work
-const callbackUrl = 'http://51.159.183.42:80/callback.html';
+const callbackUrl = 'http://51.159.183.42/callback.html';
 const cognitoAuthUrl = 'https://devops-up.auth.eu-central-1.amazoncognito.com/'; 
 const cognitoClientId = '76am19mg5mfq0f2c4b08pkd4p6';
 const cognitoClientSecret = '1d7vrsn8la2s1rh0sln6sgpb5qkio6pcjp060ujsfi8i2jkueq1g';
