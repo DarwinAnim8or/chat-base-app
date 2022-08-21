@@ -3,6 +3,7 @@ const axios = require('axios');
 const app = express()
 const port = 3000;
 
+//had to set it to my ip before it'd work
 const callbackUrl = 'http://51.159.183.42:80/callback.html';
 const cognitoAuthUrl = 'https://devops-up.auth.eu-central-1.amazoncognito.com/'; 
 const cognitoClientId = '76am19mg5mfq0f2c4b08pkd4p6';
